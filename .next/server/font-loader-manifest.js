@@ -1,0 +1,19 @@
+self.__FONT_LOADER_MANIFEST={
+  "pages": {},
+  "app": {
+    "/Users/drewleonard/Documents/website/node_modules/@next/font/local/target.css?{\"path\":\"src/app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":\"../fonts/PPNeueMontreal-Italic.woff2\",\"variable\":\"--font-body-italic\",\"style\":\"italic\"}],\"variableName\":\"neueMontrealItalic\"}": [
+      "static/media/b1373ee6909ce2f4-s.p.woff2"
+    ],
+    "/Users/drewleonard/Documents/website/node_modules/@next/font/local/target.css?{\"path\":\"src/app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":\"../fonts/PPNeueMontreal-Bold.woff2\",\"variable\":\"--font-body-bold\",\"weight\":\"bold\"}],\"variableName\":\"neueMontrealBold\"}": [
+      "static/media/c8897484f20cb9bc-s.p.woff2"
+    ],
+    "/Users/drewleonard/Documents/website/node_modules/@next/font/local/target.css?{\"path\":\"src/app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":\"../fonts/PPNeueMontreal-Regular.woff2\",\"variable\":\"--font-body\",\"weight\":\"400\"}],\"variableName\":\"neueMontrealRegular\"}": [
+      "static/media/be78684d432e3822-s.p.woff2"
+    ],
+    "/Users/drewleonard/Documents/website/node_modules/@next/font/google/target.css?{\"path\":\"src/app/fonts.ts\",\"import\":\"Roboto_Mono\",\"arguments\":[{\"weight\":[\"400\"],\"variable\":\"--font-mono\",\"subsets\":[\"latin\"]}],\"variableName\":\"robotoMono\"}": [
+      "static/media/d95452b1d242c8b2-s.p.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

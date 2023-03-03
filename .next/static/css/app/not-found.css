@@ -1,0 +1,1045 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/BlockSpacing/index.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.BlockSpacing_top__va0Gl {
+  margin-top: var(--block-spacing);
+}
+
+.BlockSpacing_bottom__3u0bx {
+  margin-bottom: var(--block-spacing);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/LineBlip/index.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LineBlip_lineBlip__rpuG_ {
+  --lineColor: var(--theme-elevation-500);
+  --gapSize: calc(var(--base) * 1.5);
+  background-image: linear-gradient(90deg, var(--lineColor) 0%, var(--lineColor) 33.33%, transparent 33.33%, transparent calc(33.33% + var(--gapSize)), var(--lineColor) calc(33.33% + var(--gapSize)), var(--lineColor) 100%);
+  background-position: calc(50% - var(--gapSize)) 0;
+  background-repeat: no-repeat;
+  background-size: calc(300% + var(--gapSize)) 100%;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.LineBlip_lineBlip__rpuG_.LineBlip_gap-large__GTWpU {
+  --gapSize: calc(var(--base) * 4);
+}
+.LineBlip_lineBlip__rpuG_.LineBlip_bottom__DcD_6 {
+  top: unset;
+  bottom: 0;
+}
+.LineBlip_lineBlip__rpuG_.LineBlip_isAnimating__n_HV0 {
+  --lineColor: currentColor;
+  background-position: 0% 0;
+  transition: background-position var(--duration) cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@media (max-width: 1024px) {
+  .LineBlip_lineBlip__rpuG_.LineBlip_isAnimating__n_HV0 {
+    background-position: calc(50% - var(--gapSize)) 0;
+    --lineColor: var(--theme-elevation-500);
+  }
+}
+.LineBlip_lineBlip__rpuG_.LineBlip_animatingOut__X1If5 {
+  transition: none;
+  background-position: calc(50% - var(--gapSize)) 0;
+  --lineColor: var(--theme-elevation-500);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/icons/index.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.icons_icon__0cxCO {
+  width: calc(var(--base) * 0.5);
+  height: calc(var(--base) * 0.5);
+  overflow: visible;
+  transition: transform var(--default-trans-time) linear;
+  will-change: transform;
+}
+
+.icons_stroke__UuH50 {
+  stroke-width: 1px;
+  fill: none;
+  stroke: currentColor;
+}
+
+.icons_small__Tr3YU {
+  width: calc(var(--base) * 0.25);
+  height: calc(var(--base) * 0.25);
+}
+
+.icons_large__ossew {
+  height: var(--base);
+  width: var(--base);
+}
+
+.icons_bold__n0cft .icons_stroke__UuH50 {
+  stroke-width: 2px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Button/index.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__Tpz3i {
+  all: unset;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-flex;
+  position: relative;
+}
+
+.Button_full-width__5dw9s {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .Button_mobile-full-width__K54WS {
+    width: 100%;
+  }
+}
+
+.Button_appearance--default___jSU1 {
+  display: inline-flex;
+  min-width: calc(var(--base) * 12);
+  padding-top: calc(var(--base) * 0.75);
+}
+.Button_appearance--primary__ycatk {
+  border: 1px solid var(--theme-elevation-900);
+  padding: calc(var(--base) * 0.75) var(--base);
+  color: var(--theme-elevation-0);
+  background-color: var(--theme-elevation-900);
+}
+.Button_appearance--secondary__L2EeD {
+  border: 1px solid;
+  border-color: var(--theme-elevation-500);
+  padding: calc(var(--base) * 0.75) var(--base);
+}
+.Button_appearance--secondary--hovered__z8lLK {
+  border-color: var(--theme-elevation-900);
+}
+@media (max-width: 1024px) {
+  .Button_appearance--secondary--hovered__z8lLK {
+    border-color: var(--theme-elevation-500);
+  }
+}
+
+.Button_gradient__Umnjm {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 50ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Button_is--hovered__XZvas .Button_icon___5DvQ {
+  transform: translate3d(2px, -2px, 0);
+}
+@media (max-width: 1024px) {
+  .Button_is--hovered__XZvas .Button_icon___5DvQ {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.Button_content__xkrLK {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.Button_label__Ki9Se {
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Button_label-mono__AmpZE {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media (max-width: 1600px) {
+  .Button_label-mono__AmpZE {
+    font-size: 13px;
+    letter-spacing: 2.75px;
+  }
+}
+@media (max-width: 768px) {
+  .Button_label-mono__AmpZE {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2.625px;
+  }
+}
+
+.Button_label-centered__hP2gP {
+  justify-content: center;
+  text-align: center;
+}
+
+.Button_icon___5DvQ {
+  position: relative;
+  transition-duration: 50ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.Button_spacer__BpyRr {
+  width: calc(var(--base) / 2);
+  flex-shrink: 0;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Tooltip/index.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Tooltip_tooltip__O9zjI {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  z-index: 2;
+  transform: translate3d(-50%, -20%, 0);
+  padding: calc(var(--base) * 0.3) calc(var(--base) * 0.5);
+  color: var(--theme-text);
+  line-height: calc(var(--base) * 0.75);
+  font-weight: normal;
+  white-space: nowrap;
+  background-color: var(--theme-elevation-100);
+}
+@media (max-width: 1600px) {
+  .Tooltip_tooltip__O9zjI {
+    font-size: 13px;
+    letter-spacing: 2.75px;
+  }
+}
+@media (max-width: 768px) {
+  .Tooltip_tooltip__O9zjI {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2.625px;
+  }
+}
+
+.Tooltip_caret__GRmLA {
+  position: absolute;
+  transform: translateX(-50%);
+  top: calc(100% - var(--base) * 0.0625);
+  left: 50%;
+  height: 0;
+  width: 0;
+  border: 10px solid transparent;
+  border-top-color: var(--theme-elevation-100);
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/CopyToClipboard/index.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.CopyToClipboard_copyToClipboard__URXRD {
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  color: currentColor;
+  font-size: var(--font-body-size);
+  font-family: var(--font-body);
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+  color: currentColor;
+  display: inline-flex;
+}
+.CopyToClipboard_copyToClipboard__URXRD textarea {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  height: 0px;
+  width: 0px;
+}
+.CopyToClipboard_copyToClipboard__URXRD .CopyToClipboard_tooltip__IFqxp {
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.CopyToClipboard_copyToClipboard__URXRD:focus, .CopyToClipboard_copyToClipboard__URXRD:active {
+  outline: none;
+}
+.CopyToClipboard_copyToClipboard__URXRD:hover .CopyToClipboard_tooltip__IFqxp {
+  opacity: 1;
+  visibility: visible;
+}
+
+.CopyToClipboard_tooltipWrapper__7Etm_ {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.CopyToClipboard_showTooltip__1YG_G {
+  opacity: 1;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/CreatePayloadApp/index.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.CreatePayloadApp_cpa__s4oWu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CreatePayloadApp_cpa__s4oWu p {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-transform: initial;
+  letter-spacing: 0 !important;
+  margin: 0;
+  color: var(--color-success-500);
+}
+@media (max-width: 1600px) {
+  .CreatePayloadApp_cpa__s4oWu p {
+    font-size: 13px;
+    letter-spacing: 2.75px;
+  }
+}
+@media (max-width: 768px) {
+  .CreatePayloadApp_cpa__s4oWu p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2.625px;
+  }
+}
+.CreatePayloadApp_cpa__s4oWu p:before {
+  content: "$";
+  margin-right: calc(var(--base) * 0.75);
+  color: white;
+}
+
+.CreatePayloadApp_background__MUP1N {
+  background: var(--color-base-900);
+  padding: var(--base);
+}
+
+.CreatePayloadApp_copyButton__5ykn_ {
+  margin-left: var(--base);
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Label/index.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Label_label__z2CUo {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media (max-width: 1600px) {
+  .Label_label__z2CUo {
+    font-size: 13px;
+    letter-spacing: 2.75px;
+  }
+}
+@media (max-width: 768px) {
+  .Label_label__z2CUo {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2.625px;
+  }
+}
+
+.Label_label__z2CUo + h1,
+.Label_label__z2CUo + h2,
+.Label_label__z2CUo + h3,
+.Label_label__z2CUo + h4,
+.Label_label__z2CUo + h5,
+.Label_label__z2CUo + h6 {
+  margin-top: var(--base);
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/PixelBackground/index.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.PixelBackground_pixelBackground__OxIFj {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/dot.png");
+  background-repeat: repeat;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/LargeBody/index.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LargeBody_largeBody__THI_A {
+  font-size: 33px;
+  line-height: 42px;
+}
+@media (max-width: 1024px) {
+  .LargeBody_largeBody__THI_A {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .LargeBody_largeBody__THI_A {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/providers/Theme/index.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Theme_loading__5tFKG {
+  display: none;
+}
+
+.Theme_theme--light__w_C3I {
+  --theme-success-50: var(--color-success-50);
+  --theme-success-100: var(--color-success-100);
+  --theme-success-150: var(--color-success-150);
+  --theme-success-200: var(--color-success-200);
+  --theme-success-250: var(--color-success-250);
+  --theme-success-300: var(--color-success-300);
+  --theme-success-350: var(--color-success-350);
+  --theme-success-400: var(--color-success-400);
+  --theme-success-450: var(--color-success-450);
+  --theme-success-500: var(--color-success-500);
+  --theme-success-550: var(--color-success-550);
+  --theme-success-600: var(--color-success-600);
+  --theme-success-650: var(--color-success-650);
+  --theme-success-700: var(--color-success-700);
+  --theme-success-750: var(--color-success-750);
+  --theme-success-800: var(--color-success-800);
+  --theme-success-850: var(--color-success-850);
+  --theme-success-900: var(--color-success-900);
+  --theme-success-950: var(--color-success-950);
+  --theme-warning-50: var(--color-warning-50);
+  --theme-warning-100: var(--color-warning-100);
+  --theme-warning-150: var(--color-warning-150);
+  --theme-warning-200: var(--color-warning-200);
+  --theme-warning-250: var(--color-warning-250);
+  --theme-warning-300: var(--color-warning-300);
+  --theme-warning-350: var(--color-warning-350);
+  --theme-warning-400: var(--color-warning-400);
+  --theme-warning-450: var(--color-warning-450);
+  --theme-warning-500: var(--color-warning-500);
+  --theme-warning-550: var(--color-warning-550);
+  --theme-warning-600: var(--color-warning-600);
+  --theme-warning-650: var(--color-warning-650);
+  --theme-warning-700: var(--color-warning-700);
+  --theme-warning-750: var(--color-warning-750);
+  --theme-warning-800: var(--color-warning-800);
+  --theme-warning-850: var(--color-warning-850);
+  --theme-warning-900: var(--color-warning-900);
+  --theme-warning-950: var(--color-warning-950);
+  --theme-error-50: var(--color-error-50);
+  --theme-error-100: var(--color-error-100);
+  --theme-error-150: var(--color-error-150);
+  --theme-error-200: var(--color-error-200);
+  --theme-error-250: var(--color-error-250);
+  --theme-error-300: var(--color-error-300);
+  --theme-error-350: var(--color-error-350);
+  --theme-error-400: var(--color-error-400);
+  --theme-error-450: var(--color-error-450);
+  --theme-error-500: var(--color-error-500);
+  --theme-error-550: var(--color-error-550);
+  --theme-error-600: var(--color-error-600);
+  --theme-error-650: var(--color-error-650);
+  --theme-error-700: var(--color-error-700);
+  --theme-error-750: var(--color-error-750);
+  --theme-error-800: var(--color-error-800);
+  --theme-error-850: var(--color-error-850);
+  --theme-error-900: var(--color-error-900);
+  --theme-error-950: var(--color-error-950);
+  --theme-blue-50: var(--color-blue-50);
+  --theme-blue-100: var(--color-blue-100);
+  --theme-blue-150: var(--color-blue-150);
+  --theme-blue-200: var(--color-blue-200);
+  --theme-blue-250: var(--color-blue-250);
+  --theme-blue-300: var(--color-blue-300);
+  --theme-blue-350: var(--color-blue-350);
+  --theme-blue-400: var(--color-blue-400);
+  --theme-blue-450: var(--color-blue-450);
+  --theme-blue-500: var(--color-blue-500);
+  --theme-blue-550: var(--color-blue-550);
+  --theme-blue-600: var(--color-blue-600);
+  --theme-blue-650: var(--color-blue-650);
+  --theme-blue-700: var(--color-blue-700);
+  --theme-blue-750: var(--color-blue-750);
+  --theme-blue-800: var(--color-blue-800);
+  --theme-blue-850: var(--color-blue-850);
+  --theme-blue-900: var(--color-blue-900);
+  --theme-blue-950: var(--color-blue-950);
+  --theme-purple-50: var(--color-purple-50);
+  --theme-purple-100: var(--color-purple-100);
+  --theme-purple-150: var(--color-purple-150);
+  --theme-purple-200: var(--color-purple-200);
+  --theme-purple-250: var(--color-purple-250);
+  --theme-purple-300: var(--color-purple-300);
+  --theme-purple-350: var(--color-purple-350);
+  --theme-purple-400: var(--color-purple-400);
+  --theme-purple-450: var(--color-purple-450);
+  --theme-purple-500: var(--color-purple-500);
+  --theme-purple-550: var(--color-purple-550);
+  --theme-purple-600: var(--color-purple-600);
+  --theme-purple-650: var(--color-purple-650);
+  --theme-purple-700: var(--color-purple-700);
+  --theme-purple-750: var(--color-purple-750);
+  --theme-purple-800: var(--color-purple-800);
+  --theme-purple-850: var(--color-purple-850);
+  --theme-purple-900: var(--color-purple-900);
+  --theme-purple-950: var(--color-purple-950);
+  --theme-elevation-0: var(--color-base-0);
+  --theme-elevation-50: var(--color-base-50);
+  --theme-elevation-100: var(--color-base-100);
+  --theme-elevation-150: var(--color-base-150);
+  --theme-elevation-200: var(--color-base-200);
+  --theme-elevation-250: var(--color-base-250);
+  --theme-elevation-300: var(--color-base-300);
+  --theme-elevation-350: var(--color-base-350);
+  --theme-elevation-400: var(--color-base-400);
+  --theme-elevation-450: var(--color-base-450);
+  --theme-elevation-500: var(--color-base-500);
+  --theme-elevation-550: var(--color-base-550);
+  --theme-elevation-600: var(--color-base-600);
+  --theme-elevation-650: var(--color-base-650);
+  --theme-elevation-700: var(--color-base-700);
+  --theme-elevation-750: var(--color-base-750);
+  --theme-elevation-800: var(--color-base-800);
+  --theme-elevation-850: var(--color-base-850);
+  --theme-elevation-900: var(--color-base-900);
+  --theme-elevation-950: var(--color-base-950);
+  --theme-elevation-1000: var(--color-base-1000);
+  --theme-bg: var(--theme-elevation-0);
+  --theme-input-bg: var(--theme-elevation-0);
+  --theme-text: var(--theme-elevation-750);
+  color-scheme: light;
+  color: var(--theme-text);
+}
+.Theme_theme--light__w_C3I h1 a,
+.Theme_theme--light__w_C3I h2 a,
+.Theme_theme--light__w_C3I h3 a,
+.Theme_theme--light__w_C3I h4 a,
+.Theme_theme--light__w_C3I h5 a,
+.Theme_theme--light__w_C3I h6 a {
+  color: var(--theme-elevation-750);
+}
+.Theme_theme--light__w_C3I h1 a:hover,
+.Theme_theme--light__w_C3I h2 a:hover,
+.Theme_theme--light__w_C3I h3 a:hover,
+.Theme_theme--light__w_C3I h4 a:hover,
+.Theme_theme--light__w_C3I h5 a:hover,
+.Theme_theme--light__w_C3I h6 a:hover {
+  color: var(--theme-elevation-800);
+}
+.Theme_theme--light__w_C3I h1 a:visited,
+.Theme_theme--light__w_C3I h2 a:visited,
+.Theme_theme--light__w_C3I h3 a:visited,
+.Theme_theme--light__w_C3I h4 a:visited,
+.Theme_theme--light__w_C3I h5 a:visited,
+.Theme_theme--light__w_C3I h6 a:visited {
+  color: var(--theme-elevation-750);
+}
+.Theme_theme--light__w_C3I h1 a:visited:hover,
+.Theme_theme--light__w_C3I h2 a:visited:hover,
+.Theme_theme--light__w_C3I h3 a:visited:hover,
+.Theme_theme--light__w_C3I h4 a:visited:hover,
+.Theme_theme--light__w_C3I h5 a:visited:hover,
+.Theme_theme--light__w_C3I h6 a:visited:hover {
+  color: var(--theme-elevation-800);
+}
+
+.Theme_theme--dark__slL_N {
+  --theme-elevation-0: var(--color-base-900);
+  --theme-elevation-50: var(--color-base-850);
+  --theme-elevation-100: var(--color-base-800);
+  --theme-elevation-150: var(--color-base-750);
+  --theme-elevation-200: var(--color-base-700);
+  --theme-elevation-250: var(--color-base-650);
+  --theme-elevation-300: var(--color-base-600);
+  --theme-elevation-350: var(--color-base-550);
+  --theme-elevation-400: var(--color-base-450);
+  --theme-elevation-450: var(--color-base-400);
+  --theme-elevation-500: var(--color-base-500);
+  --theme-elevation-550: var(--color-base-350);
+  --theme-elevation-600: var(--color-base-300);
+  --theme-elevation-650: var(--color-base-250);
+  --theme-elevation-700: var(--color-base-200);
+  --theme-elevation-750: var(--color-base-150);
+  --theme-elevation-800: var(--color-base-100);
+  --theme-elevation-850: var(--color-base-50);
+  --theme-elevation-900: var(--color-base-0);
+  --theme-elevation-950: var(--color-base-0);
+  --theme-elevation-1000: var(--color-base-0);
+  --theme-success-50: var(--color-success-950);
+  --theme-success-100: var(--color-success-900);
+  --theme-success-150: var(--color-success-850);
+  --theme-success-200: var(--color-success-800);
+  --theme-success-250: var(--color-success-750);
+  --theme-success-300: var(--color-success-700);
+  --theme-success-350: var(--color-success-650);
+  --theme-success-400: var(--color-success-600);
+  --theme-success-450: var(--color-success-550);
+  --theme-success-500: var(--color-success-500);
+  --theme-success-550: var(--color-success-450);
+  --theme-success-600: var(--color-success-400);
+  --theme-success-650: var(--color-success-350);
+  --theme-success-700: var(--color-success-300);
+  --theme-success-750: var(--color-success-250);
+  --theme-success-800: var(--color-success-200);
+  --theme-success-850: var(--color-success-150);
+  --theme-success-900: var(--color-success-100);
+  --theme-success-950: var(--color-success-50);
+  --theme-warning-50: var(--color-warning-950);
+  --theme-warning-100: var(--color-warning-900);
+  --theme-warning-150: var(--color-warning-850);
+  --theme-warning-200: var(--color-warning-800);
+  --theme-warning-250: var(--color-warning-750);
+  --theme-warning-300: var(--color-warning-700);
+  --theme-warning-350: var(--color-warning-650);
+  --theme-warning-400: var(--color-warning-600);
+  --theme-warning-450: var(--color-warning-550);
+  --theme-warning-500: var(--color-warning-500);
+  --theme-warning-550: var(--color-warning-450);
+  --theme-warning-600: var(--color-warning-400);
+  --theme-warning-650: var(--color-warning-350);
+  --theme-warning-700: var(--color-warning-300);
+  --theme-warning-750: var(--color-warning-250);
+  --theme-warning-800: var(--color-warning-200);
+  --theme-warning-850: var(--color-warning-150);
+  --theme-warning-900: var(--color-warning-100);
+  --theme-warning-950: var(--color-warning-50);
+  --theme-error-50: var(--color-error-950);
+  --theme-error-100: var(--color-error-900);
+  --theme-error-150: var(--color-error-850);
+  --theme-error-200: var(--color-error-800);
+  --theme-error-250: var(--color-error-750);
+  --theme-error-300: var(--color-error-700);
+  --theme-error-350: var(--color-error-650);
+  --theme-error-400: var(--color-error-600);
+  --theme-error-450: var(--color-error-550);
+  --theme-error-500: var(--color-error-500);
+  --theme-error-550: var(--color-error-450);
+  --theme-error-600: var(--color-error-400);
+  --theme-error-650: var(--color-error-350);
+  --theme-error-700: var(--color-error-300);
+  --theme-error-750: var(--color-error-250);
+  --theme-error-800: var(--color-error-200);
+  --theme-error-850: var(--color-error-150);
+  --theme-error-900: var(--color-error-100);
+  --theme-error-950: var(--color-error-50);
+  --theme-blue-50: var(--color-blue-950);
+  --theme-blue-100: var(--color-blue-900);
+  --theme-blue-150: var(--color-blue-850);
+  --theme-blue-200: var(--color-blue-800);
+  --theme-blue-250: var(--color-blue-750);
+  --theme-blue-300: var(--color-blue-700);
+  --theme-blue-350: var(--color-blue-650);
+  --theme-blue-400: var(--color-blue-600);
+  --theme-blue-450: var(--color-blue-550);
+  --theme-blue-500: var(--color-blue-500);
+  --theme-blue-550: var(--color-blue-450);
+  --theme-blue-600: var(--color-blue-400);
+  --theme-blue-650: var(--color-blue-350);
+  --theme-blue-700: var(--color-blue-300);
+  --theme-blue-750: var(--color-blue-250);
+  --theme-blue-800: var(--color-blue-200);
+  --theme-blue-850: var(--color-blue-150);
+  --theme-blue-900: var(--color-blue-100);
+  --theme-blue-950: var(--color-blue-50);
+  --theme-purple-50: var(--color-purple-950);
+  --theme-purple-100: var(--color-purple-900);
+  --theme-purple-150: var(--color-purple-850);
+  --theme-purple-200: var(--color-purple-800);
+  --theme-purple-250: var(--color-purple-750);
+  --theme-purple-300: var(--color-purple-700);
+  --theme-purple-350: var(--color-purple-650);
+  --theme-purple-400: var(--color-purple-600);
+  --theme-purple-450: var(--color-purple-550);
+  --theme-purple-500: var(--color-purple-500);
+  --theme-purple-550: var(--color-purple-450);
+  --theme-purple-600: var(--color-purple-400);
+  --theme-purple-650: var(--color-purple-350);
+  --theme-purple-700: var(--color-purple-300);
+  --theme-purple-750: var(--color-purple-250);
+  --theme-purple-800: var(--color-purple-200);
+  --theme-purple-850: var(--color-purple-150);
+  --theme-purple-900: var(--color-purple-100);
+  --theme-purple-950: var(--color-purple-50);
+  --theme-bg: var(--theme-elevation-0);
+  --theme-text: var(--theme-elevation-900);
+  --theme-input-bg: var(--theme-elevation-50);
+  color-scheme: dark;
+  color: var(--theme-text);
+}
+.Theme_theme--dark__slL_N h1 a,
+.Theme_theme--dark__slL_N h2 a,
+.Theme_theme--dark__slL_N h3 a,
+.Theme_theme--dark__slL_N h4 a,
+.Theme_theme--dark__slL_N h5 a,
+.Theme_theme--dark__slL_N h6 a {
+  color: var(--theme-success-600);
+}
+.Theme_theme--dark__slL_N h1 a:hover,
+.Theme_theme--dark__slL_N h2 a:hover,
+.Theme_theme--dark__slL_N h3 a:hover,
+.Theme_theme--dark__slL_N h4 a:hover,
+.Theme_theme--dark__slL_N h5 a:hover,
+.Theme_theme--dark__slL_N h6 a:hover {
+  color: var(--theme-success-400);
+}
+.Theme_theme--dark__slL_N h1 a:visited,
+.Theme_theme--dark__slL_N h2 a:visited,
+.Theme_theme--dark__slL_N h3 a:visited,
+.Theme_theme--dark__slL_N h4 a:visited,
+.Theme_theme--dark__slL_N h5 a:visited,
+.Theme_theme--dark__slL_N h6 a:visited {
+  color: var(--theme-success-700);
+}
+.Theme_theme--dark__slL_N h1 a:visited:hover,
+.Theme_theme--dark__slL_N h2 a:visited:hover,
+.Theme_theme--dark__slL_N h3 a:visited:hover,
+.Theme_theme--dark__slL_N h4 a:visited:hover,
+.Theme_theme--dark__slL_N h5 a:visited:hover,
+.Theme_theme--dark__slL_N h6 a:visited:hover {
+  color: var(--theme-success-500);
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Highlight/index.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Highlight_highlightWrapper___4gxN {
+  text-decoration: none;
+}
+
+.Highlight_label__zJcXE {
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 500ms;
+  transition-delay: 250ms;
+}
+
+.Highlight_highlightNode__ZhI2W {
+  position: relative;
+  display: inline-flex;
+  will-change: color;
+}
+.Highlight_highlightNode__ZhI2W::before {
+  pointer-events: none;
+  will-change: width;
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.33em);
+  height: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  background-color: var(--theme-success-400);
+  transition: height cubic-bezier(0.4, 0, 0.2, 1) 500ms;
+  transition-delay: 250ms;
+}
+
+.Highlight_doHighlight__bm4m_::before {
+  height: 50%;
+}
+
+.Highlight_label__zJcXE {
+  position: relative;
+  z-index: 1;
+}
+
+.Highlight_darkMode__QldPg .Highlight_label__zJcXE {
+  color: var(--theme-text);
+}
+.Highlight_darkMode__QldPg .Highlight_highlightNode__ZhI2W::before {
+  background-color: var(--theme-success-100);
+}
+.Highlight_darkMode__QldPg .Highlight_doHighlight__bm4m_ .Highlight_label__zJcXE {
+  color: var(--theme-success-600);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/RichText/Video/index.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Video_videoPlayer__VMFIr {
+  position: relative;
+  height: 0;
+  width: 100%;
+  background-color: var(--theme-elevation-0);
+  overflow: hidden;
+  margin-bottom: var(--base);
+}
+
+.Video_iframe__LR_MP {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Media/Video/index.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Video_video__ApuIi {
+  max-width: 100%;
+  width: 100%;
+  background-color: var(--color-base-50);
+  display: block;
+}
+
+.Video_cover__Gkpqi {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Media/Image/index.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Image_placeholder__NwxVA {
+  background-color: var(--theme-elevation-50);
+}
+
+[data-theme=dark] .Image_hasDarkModeFallback__NIONV.Image_themeLight___2CLP {
+  display: none;
+}
+
+[data-theme=light] .Image_themeDark__QLKed {
+  display: none;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/RichText/index.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.RichText_richText__bFXc7 a {
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  color: var(--color-blue-600);
+}
+@media (pointer: fine) {
+  .RichText_richText__bFXc7 a:hover {
+    color: var(--color-blue-400);
+  }
+}
+.RichText_richText__bFXc7 a:visited {
+  color: var(--color-purple-600);
+}
+@media (pointer: fine) {
+  .RichText_richText__bFXc7 a:visited:hover {
+    color: var(--color-purple-500);
+  }
+}
+.RichText_richText__bFXc7 :first-child {
+  margin-top: 0;
+}
+.RichText_richText__bFXc7 :last-child {
+  margin-bottom: 0;
+}
+.RichText_richText__bFXc7 span {
+  white-space: pre-wrap;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Gutter/index.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Gutter_gutter__Qb7b0 {
+  padding-right: var(--gutter-h);
+  padding-left: var(--gutter-h);
+}
+
+@media (max-width: 1024px) {
+  .Gutter_gutter__Qb7b0.Gutter_disableMobile__UTPxh {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/blocks/CallToAction/index.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.CallToAction_callToAction__Hc0LC {
+  position: relative;
+}
+
+.CallToAction_bgWrapper__kYz4_ {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.CallToAction_bgGutter__MQPr6 {
+  width: 100%;
+  height: 100%;
+}
+
+.CallToAction_bg1__tEecy {
+  position: relative;
+  height: 100%;
+  margin-left: calc(var(--gutter-h) / -2);
+  margin-right: calc(var(--gutter-h) / -2);
+  width: calc(100% + var(--gutter-h));
+  background-color: var(--color-base-950);
+}
+@media (max-width: 1024px) {
+  .CallToAction_bg1__tEecy {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.CallToAction_content__eUQGu {
+  position: relative;
+  padding: calc(var(--base) * 4) 0;
+}
+@media (max-width: 1024px) {
+  .CallToAction_content__eUQGu {
+    padding: calc(var(--base) * 2) 0 var(--base);
+  }
+}
+
+.CallToAction_cpa__2q5AR {
+  margin-bottom: calc(var(--base) * 2);
+  justify-content: flex-start;
+}
+
+.CallToAction_links__GqkKO {
+  position: relative;
+  padding: calc(var(--base) * 3) 0 0 calc(var(--base) * 3);
+}
+@media (max-width: 1024px) {
+  .CallToAction_links__GqkKO {
+    padding: calc(var(--base) * 1) 0 var(--base) var(--base);
+  }
+}
+
+.CallToAction_button__SCpc5 {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  background-color: var(--color-base-900);
+  padding: calc(var(--base) * 2);
+  text-decoration: none;
+}
+@media (max-width: 1600px) {
+  .CallToAction_button__SCpc5 {
+    font-size: 13px;
+    letter-spacing: 2.75px;
+  }
+}
+@media (max-width: 768px) {
+  .CallToAction_button__SCpc5 {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2.625px;
+  }
+}
+.CallToAction_button__SCpc5 svg path {
+  stroke: var(--color-success-500);
+}
+@media (max-width: 1024px) {
+  .CallToAction_button__SCpc5 {
+    padding: var(--base);
+  }
+}
+
+.CallToAction_pixelBG__hC9fh {
+  width: calc(100% + var(--gutter-h) / 2);
+  height: calc(100% + var(--base) * 4);
+}
+@media (max-width: 1024px) {
+  .CallToAction_pixelBG__hC9fh {
+    width: calc(100% + var(--gutter-h));
+    height: calc(100% + var(--base));
+  }
+}
+
+.CallToAction_buttonIcon__M_lwP {
+  margin-left: var(--base);
+  flex-shrink: 0;
+  top: 4px;
+  position: relative;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Breadcrumbs/index.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Breadcrumbs_breadcrumbs__qwa_p {
+  display: flex;
+  margin-bottom: calc(var(--base) * 1.5);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/HeaderObserver/index.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.HeaderObserver_headerObserver__6oGLn {
+  position: relative;
+  height: 100%;
+}
+
+.HeaderObserver_observerContainer__U5Qe3 {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.HeaderObserver_pullContainerUp__8itTv {
+  top: calc(var(--page-padding-top) * -1);
+}
+
+.HeaderObserver_stickyObserver___J762 {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc(0.5 * var(--header-height));
+  margin-bottom: calc(0.5 * var(--header-height));
+  height: 0px;
+  z-index: 1;
+}
+
+.HeaderObserver_debug__n6uRl .HeaderObserver_stickyObserver___J762 {
+  background-color: hotpink;
+  height: 1px;
+  z-index: 10000;
+}
+
+.HeaderObserver_childrenWrap__LqCAU {
+  position: relative;
+  z-index: 0;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Hero/Default/index.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Default_defaultHero__ADV_T {
+  margin-bottom: calc(var(--base) * -3);
+}
+@media (max-width: 1600px) {
+  .Default_defaultHero__ADV_T {
+    margin-bottom: calc(var(--base) * -2);
+  }
+}
+@media (max-width: 1024px) {
+  .Default_defaultHero__ADV_T {
+    margin-bottom: calc(var(--base) * -1);
+  }
+}
+
+.Default_pageLabel__7Q9Vc {
+  margin-bottom: calc(var(--base) * 1);
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .Default_richText__wACdW {
+    margin-bottom: var(--base);
+  }
+}

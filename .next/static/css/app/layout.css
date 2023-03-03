@@ -1,0 +1,1327 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/providers/Theme/index.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Theme_loading__5tFKG {
+  display: none;
+}
+
+.Theme_theme--light__w_C3I {
+  --theme-success-50: var(--color-success-50);
+  --theme-success-100: var(--color-success-100);
+  --theme-success-150: var(--color-success-150);
+  --theme-success-200: var(--color-success-200);
+  --theme-success-250: var(--color-success-250);
+  --theme-success-300: var(--color-success-300);
+  --theme-success-350: var(--color-success-350);
+  --theme-success-400: var(--color-success-400);
+  --theme-success-450: var(--color-success-450);
+  --theme-success-500: var(--color-success-500);
+  --theme-success-550: var(--color-success-550);
+  --theme-success-600: var(--color-success-600);
+  --theme-success-650: var(--color-success-650);
+  --theme-success-700: var(--color-success-700);
+  --theme-success-750: var(--color-success-750);
+  --theme-success-800: var(--color-success-800);
+  --theme-success-850: var(--color-success-850);
+  --theme-success-900: var(--color-success-900);
+  --theme-success-950: var(--color-success-950);
+  --theme-warning-50: var(--color-warning-50);
+  --theme-warning-100: var(--color-warning-100);
+  --theme-warning-150: var(--color-warning-150);
+  --theme-warning-200: var(--color-warning-200);
+  --theme-warning-250: var(--color-warning-250);
+  --theme-warning-300: var(--color-warning-300);
+  --theme-warning-350: var(--color-warning-350);
+  --theme-warning-400: var(--color-warning-400);
+  --theme-warning-450: var(--color-warning-450);
+  --theme-warning-500: var(--color-warning-500);
+  --theme-warning-550: var(--color-warning-550);
+  --theme-warning-600: var(--color-warning-600);
+  --theme-warning-650: var(--color-warning-650);
+  --theme-warning-700: var(--color-warning-700);
+  --theme-warning-750: var(--color-warning-750);
+  --theme-warning-800: var(--color-warning-800);
+  --theme-warning-850: var(--color-warning-850);
+  --theme-warning-900: var(--color-warning-900);
+  --theme-warning-950: var(--color-warning-950);
+  --theme-error-50: var(--color-error-50);
+  --theme-error-100: var(--color-error-100);
+  --theme-error-150: var(--color-error-150);
+  --theme-error-200: var(--color-error-200);
+  --theme-error-250: var(--color-error-250);
+  --theme-error-300: var(--color-error-300);
+  --theme-error-350: var(--color-error-350);
+  --theme-error-400: var(--color-error-400);
+  --theme-error-450: var(--color-error-450);
+  --theme-error-500: var(--color-error-500);
+  --theme-error-550: var(--color-error-550);
+  --theme-error-600: var(--color-error-600);
+  --theme-error-650: var(--color-error-650);
+  --theme-error-700: var(--color-error-700);
+  --theme-error-750: var(--color-error-750);
+  --theme-error-800: var(--color-error-800);
+  --theme-error-850: var(--color-error-850);
+  --theme-error-900: var(--color-error-900);
+  --theme-error-950: var(--color-error-950);
+  --theme-blue-50: var(--color-blue-50);
+  --theme-blue-100: var(--color-blue-100);
+  --theme-blue-150: var(--color-blue-150);
+  --theme-blue-200: var(--color-blue-200);
+  --theme-blue-250: var(--color-blue-250);
+  --theme-blue-300: var(--color-blue-300);
+  --theme-blue-350: var(--color-blue-350);
+  --theme-blue-400: var(--color-blue-400);
+  --theme-blue-450: var(--color-blue-450);
+  --theme-blue-500: var(--color-blue-500);
+  --theme-blue-550: var(--color-blue-550);
+  --theme-blue-600: var(--color-blue-600);
+  --theme-blue-650: var(--color-blue-650);
+  --theme-blue-700: var(--color-blue-700);
+  --theme-blue-750: var(--color-blue-750);
+  --theme-blue-800: var(--color-blue-800);
+  --theme-blue-850: var(--color-blue-850);
+  --theme-blue-900: var(--color-blue-900);
+  --theme-blue-950: var(--color-blue-950);
+  --theme-purple-50: var(--color-purple-50);
+  --theme-purple-100: var(--color-purple-100);
+  --theme-purple-150: var(--color-purple-150);
+  --theme-purple-200: var(--color-purple-200);
+  --theme-purple-250: var(--color-purple-250);
+  --theme-purple-300: var(--color-purple-300);
+  --theme-purple-350: var(--color-purple-350);
+  --theme-purple-400: var(--color-purple-400);
+  --theme-purple-450: var(--color-purple-450);
+  --theme-purple-500: var(--color-purple-500);
+  --theme-purple-550: var(--color-purple-550);
+  --theme-purple-600: var(--color-purple-600);
+  --theme-purple-650: var(--color-purple-650);
+  --theme-purple-700: var(--color-purple-700);
+  --theme-purple-750: var(--color-purple-750);
+  --theme-purple-800: var(--color-purple-800);
+  --theme-purple-850: var(--color-purple-850);
+  --theme-purple-900: var(--color-purple-900);
+  --theme-purple-950: var(--color-purple-950);
+  --theme-elevation-0: var(--color-base-0);
+  --theme-elevation-50: var(--color-base-50);
+  --theme-elevation-100: var(--color-base-100);
+  --theme-elevation-150: var(--color-base-150);
+  --theme-elevation-200: var(--color-base-200);
+  --theme-elevation-250: var(--color-base-250);
+  --theme-elevation-300: var(--color-base-300);
+  --theme-elevation-350: var(--color-base-350);
+  --theme-elevation-400: var(--color-base-400);
+  --theme-elevation-450: var(--color-base-450);
+  --theme-elevation-500: var(--color-base-500);
+  --theme-elevation-550: var(--color-base-550);
+  --theme-elevation-600: var(--color-base-600);
+  --theme-elevation-650: var(--color-base-650);
+  --theme-elevation-700: var(--color-base-700);
+  --theme-elevation-750: var(--color-base-750);
+  --theme-elevation-800: var(--color-base-800);
+  --theme-elevation-850: var(--color-base-850);
+  --theme-elevation-900: var(--color-base-900);
+  --theme-elevation-950: var(--color-base-950);
+  --theme-elevation-1000: var(--color-base-1000);
+  --theme-bg: var(--theme-elevation-0);
+  --theme-input-bg: var(--theme-elevation-0);
+  --theme-text: var(--theme-elevation-750);
+  color-scheme: light;
+  color: var(--theme-text);
+}
+.Theme_theme--light__w_C3I h1 a,
+.Theme_theme--light__w_C3I h2 a,
+.Theme_theme--light__w_C3I h3 a,
+.Theme_theme--light__w_C3I h4 a,
+.Theme_theme--light__w_C3I h5 a,
+.Theme_theme--light__w_C3I h6 a {
+  color: var(--theme-elevation-750);
+}
+.Theme_theme--light__w_C3I h1 a:hover,
+.Theme_theme--light__w_C3I h2 a:hover,
+.Theme_theme--light__w_C3I h3 a:hover,
+.Theme_theme--light__w_C3I h4 a:hover,
+.Theme_theme--light__w_C3I h5 a:hover,
+.Theme_theme--light__w_C3I h6 a:hover {
+  color: var(--theme-elevation-800);
+}
+.Theme_theme--light__w_C3I h1 a:visited,
+.Theme_theme--light__w_C3I h2 a:visited,
+.Theme_theme--light__w_C3I h3 a:visited,
+.Theme_theme--light__w_C3I h4 a:visited,
+.Theme_theme--light__w_C3I h5 a:visited,
+.Theme_theme--light__w_C3I h6 a:visited {
+  color: var(--theme-elevation-750);
+}
+.Theme_theme--light__w_C3I h1 a:visited:hover,
+.Theme_theme--light__w_C3I h2 a:visited:hover,
+.Theme_theme--light__w_C3I h3 a:visited:hover,
+.Theme_theme--light__w_C3I h4 a:visited:hover,
+.Theme_theme--light__w_C3I h5 a:visited:hover,
+.Theme_theme--light__w_C3I h6 a:visited:hover {
+  color: var(--theme-elevation-800);
+}
+
+.Theme_theme--dark__slL_N {
+  --theme-elevation-0: var(--color-base-900);
+  --theme-elevation-50: var(--color-base-850);
+  --theme-elevation-100: var(--color-base-800);
+  --theme-elevation-150: var(--color-base-750);
+  --theme-elevation-200: var(--color-base-700);
+  --theme-elevation-250: var(--color-base-650);
+  --theme-elevation-300: var(--color-base-600);
+  --theme-elevation-350: var(--color-base-550);
+  --theme-elevation-400: var(--color-base-450);
+  --theme-elevation-450: var(--color-base-400);
+  --theme-elevation-500: var(--color-base-500);
+  --theme-elevation-550: var(--color-base-350);
+  --theme-elevation-600: var(--color-base-300);
+  --theme-elevation-650: var(--color-base-250);
+  --theme-elevation-700: var(--color-base-200);
+  --theme-elevation-750: var(--color-base-150);
+  --theme-elevation-800: var(--color-base-100);
+  --theme-elevation-850: var(--color-base-50);
+  --theme-elevation-900: var(--color-base-0);
+  --theme-elevation-950: var(--color-base-0);
+  --theme-elevation-1000: var(--color-base-0);
+  --theme-success-50: var(--color-success-950);
+  --theme-success-100: var(--color-success-900);
+  --theme-success-150: var(--color-success-850);
+  --theme-success-200: var(--color-success-800);
+  --theme-success-250: var(--color-success-750);
+  --theme-success-300: var(--color-success-700);
+  --theme-success-350: var(--color-success-650);
+  --theme-success-400: var(--color-success-600);
+  --theme-success-450: var(--color-success-550);
+  --theme-success-500: var(--color-success-500);
+  --theme-success-550: var(--color-success-450);
+  --theme-success-600: var(--color-success-400);
+  --theme-success-650: var(--color-success-350);
+  --theme-success-700: var(--color-success-300);
+  --theme-success-750: var(--color-success-250);
+  --theme-success-800: var(--color-success-200);
+  --theme-success-850: var(--color-success-150);
+  --theme-success-900: var(--color-success-100);
+  --theme-success-950: var(--color-success-50);
+  --theme-warning-50: var(--color-warning-950);
+  --theme-warning-100: var(--color-warning-900);
+  --theme-warning-150: var(--color-warning-850);
+  --theme-warning-200: var(--color-warning-800);
+  --theme-warning-250: var(--color-warning-750);
+  --theme-warning-300: var(--color-warning-700);
+  --theme-warning-350: var(--color-warning-650);
+  --theme-warning-400: var(--color-warning-600);
+  --theme-warning-450: var(--color-warning-550);
+  --theme-warning-500: var(--color-warning-500);
+  --theme-warning-550: var(--color-warning-450);
+  --theme-warning-600: var(--color-warning-400);
+  --theme-warning-650: var(--color-warning-350);
+  --theme-warning-700: var(--color-warning-300);
+  --theme-warning-750: var(--color-warning-250);
+  --theme-warning-800: var(--color-warning-200);
+  --theme-warning-850: var(--color-warning-150);
+  --theme-warning-900: var(--color-warning-100);
+  --theme-warning-950: var(--color-warning-50);
+  --theme-error-50: var(--color-error-950);
+  --theme-error-100: var(--color-error-900);
+  --theme-error-150: var(--color-error-850);
+  --theme-error-200: var(--color-error-800);
+  --theme-error-250: var(--color-error-750);
+  --theme-error-300: var(--color-error-700);
+  --theme-error-350: var(--color-error-650);
+  --theme-error-400: var(--color-error-600);
+  --theme-error-450: var(--color-error-550);
+  --theme-error-500: var(--color-error-500);
+  --theme-error-550: var(--color-error-450);
+  --theme-error-600: var(--color-error-400);
+  --theme-error-650: var(--color-error-350);
+  --theme-error-700: var(--color-error-300);
+  --theme-error-750: var(--color-error-250);
+  --theme-error-800: var(--color-error-200);
+  --theme-error-850: var(--color-error-150);
+  --theme-error-900: var(--color-error-100);
+  --theme-error-950: var(--color-error-50);
+  --theme-blue-50: var(--color-blue-950);
+  --theme-blue-100: var(--color-blue-900);
+  --theme-blue-150: var(--color-blue-850);
+  --theme-blue-200: var(--color-blue-800);
+  --theme-blue-250: var(--color-blue-750);
+  --theme-blue-300: var(--color-blue-700);
+  --theme-blue-350: var(--color-blue-650);
+  --theme-blue-400: var(--color-blue-600);
+  --theme-blue-450: var(--color-blue-550);
+  --theme-blue-500: var(--color-blue-500);
+  --theme-blue-550: var(--color-blue-450);
+  --theme-blue-600: var(--color-blue-400);
+  --theme-blue-650: var(--color-blue-350);
+  --theme-blue-700: var(--color-blue-300);
+  --theme-blue-750: var(--color-blue-250);
+  --theme-blue-800: var(--color-blue-200);
+  --theme-blue-850: var(--color-blue-150);
+  --theme-blue-900: var(--color-blue-100);
+  --theme-blue-950: var(--color-blue-50);
+  --theme-purple-50: var(--color-purple-950);
+  --theme-purple-100: var(--color-purple-900);
+  --theme-purple-150: var(--color-purple-850);
+  --theme-purple-200: var(--color-purple-800);
+  --theme-purple-250: var(--color-purple-750);
+  --theme-purple-300: var(--color-purple-700);
+  --theme-purple-350: var(--color-purple-650);
+  --theme-purple-400: var(--color-purple-600);
+  --theme-purple-450: var(--color-purple-550);
+  --theme-purple-500: var(--color-purple-500);
+  --theme-purple-550: var(--color-purple-450);
+  --theme-purple-600: var(--color-purple-400);
+  --theme-purple-650: var(--color-purple-350);
+  --theme-purple-700: var(--color-purple-300);
+  --theme-purple-750: var(--color-purple-250);
+  --theme-purple-800: var(--color-purple-200);
+  --theme-purple-850: var(--color-purple-150);
+  --theme-purple-900: var(--color-purple-100);
+  --theme-purple-950: var(--color-purple-50);
+  --theme-bg: var(--theme-elevation-0);
+  --theme-text: var(--theme-elevation-900);
+  --theme-input-bg: var(--theme-elevation-50);
+  color-scheme: dark;
+  color: var(--theme-text);
+}
+.Theme_theme--dark__slL_N h1 a,
+.Theme_theme--dark__slL_N h2 a,
+.Theme_theme--dark__slL_N h3 a,
+.Theme_theme--dark__slL_N h4 a,
+.Theme_theme--dark__slL_N h5 a,
+.Theme_theme--dark__slL_N h6 a {
+  color: var(--theme-success-600);
+}
+.Theme_theme--dark__slL_N h1 a:hover,
+.Theme_theme--dark__slL_N h2 a:hover,
+.Theme_theme--dark__slL_N h3 a:hover,
+.Theme_theme--dark__slL_N h4 a:hover,
+.Theme_theme--dark__slL_N h5 a:hover,
+.Theme_theme--dark__slL_N h6 a:hover {
+  color: var(--theme-success-400);
+}
+.Theme_theme--dark__slL_N h1 a:visited,
+.Theme_theme--dark__slL_N h2 a:visited,
+.Theme_theme--dark__slL_N h3 a:visited,
+.Theme_theme--dark__slL_N h4 a:visited,
+.Theme_theme--dark__slL_N h5 a:visited,
+.Theme_theme--dark__slL_N h6 a:visited {
+  color: var(--theme-success-700);
+}
+.Theme_theme--dark__slL_N h1 a:visited:hover,
+.Theme_theme--dark__slL_N h2 a:visited:hover,
+.Theme_theme--dark__slL_N h3 a:visited:hover,
+.Theme_theme--dark__slL_N h4 a:visited:hover,
+.Theme_theme--dark__slL_N h5 a:visited:hover,
+.Theme_theme--dark__slL_N h6 a:visited:hover {
+  color: var(--theme-success-500);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/LineBlip/index.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LineBlip_lineBlip__rpuG_ {
+  --lineColor: var(--theme-elevation-500);
+  --gapSize: calc(var(--base) * 1.5);
+  background-image: linear-gradient(90deg, var(--lineColor) 0%, var(--lineColor) 33.33%, transparent 33.33%, transparent calc(33.33% + var(--gapSize)), var(--lineColor) calc(33.33% + var(--gapSize)), var(--lineColor) 100%);
+  background-position: calc(50% - var(--gapSize)) 0;
+  background-repeat: no-repeat;
+  background-size: calc(300% + var(--gapSize)) 100%;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.LineBlip_lineBlip__rpuG_.LineBlip_gap-large__GTWpU {
+  --gapSize: calc(var(--base) * 4);
+}
+.LineBlip_lineBlip__rpuG_.LineBlip_bottom__DcD_6 {
+  top: unset;
+  bottom: 0;
+}
+.LineBlip_lineBlip__rpuG_.LineBlip_isAnimating__n_HV0 {
+  --lineColor: currentColor;
+  background-position: 0% 0;
+  transition: background-position var(--duration) cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@media (max-width: 1024px) {
+  .LineBlip_lineBlip__rpuG_.LineBlip_isAnimating__n_HV0 {
+    background-position: calc(50% - var(--gapSize)) 0;
+    --lineColor: var(--theme-elevation-500);
+  }
+}
+.LineBlip_lineBlip__rpuG_.LineBlip_animatingOut__X1If5 {
+  transition: none;
+  background-position: calc(50% - var(--gapSize)) 0;
+  --lineColor: var(--theme-elevation-500);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/icons/index.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.icons_icon__0cxCO {
+  width: calc(var(--base) * 0.5);
+  height: calc(var(--base) * 0.5);
+  overflow: visible;
+  transition: transform var(--default-trans-time) linear;
+  will-change: transform;
+}
+
+.icons_stroke__UuH50 {
+  stroke-width: 1px;
+  fill: none;
+  stroke: currentColor;
+}
+
+.icons_small__Tr3YU {
+  width: calc(var(--base) * 0.25);
+  height: calc(var(--base) * 0.25);
+}
+
+.icons_large__ossew {
+  height: var(--base);
+  width: var(--base);
+}
+
+.icons_bold__n0cft .icons_stroke__UuH50 {
+  stroke-width: 2px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Button/index.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__Tpz3i {
+  all: unset;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-flex;
+  position: relative;
+}
+
+.Button_full-width__5dw9s {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .Button_mobile-full-width__K54WS {
+    width: 100%;
+  }
+}
+
+.Button_appearance--default___jSU1 {
+  display: inline-flex;
+  min-width: calc(var(--base) * 12);
+  padding-top: calc(var(--base) * 0.75);
+}
+.Button_appearance--primary__ycatk {
+  border: 1px solid var(--theme-elevation-900);
+  padding: calc(var(--base) * 0.75) var(--base);
+  color: var(--theme-elevation-0);
+  background-color: var(--theme-elevation-900);
+}
+.Button_appearance--secondary__L2EeD {
+  border: 1px solid;
+  border-color: var(--theme-elevation-500);
+  padding: calc(var(--base) * 0.75) var(--base);
+}
+.Button_appearance--secondary--hovered__z8lLK {
+  border-color: var(--theme-elevation-900);
+}
+@media (max-width: 1024px) {
+  .Button_appearance--secondary--hovered__z8lLK {
+    border-color: var(--theme-elevation-500);
+  }
+}
+
+.Button_gradient__Umnjm {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 50ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Button_is--hovered__XZvas .Button_icon___5DvQ {
+  transform: translate3d(2px, -2px, 0);
+}
+@media (max-width: 1024px) {
+  .Button_is--hovered__XZvas .Button_icon___5DvQ {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.Button_content__xkrLK {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.Button_label__Ki9Se {
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Button_label-mono__AmpZE {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media (max-width: 1600px) {
+  .Button_label-mono__AmpZE {
+    font-size: 13px;
+    letter-spacing: 2.75px;
+  }
+}
+@media (max-width: 768px) {
+  .Button_label-mono__AmpZE {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2.625px;
+  }
+}
+
+.Button_label-centered__hP2gP {
+  justify-content: center;
+  text-align: center;
+}
+
+.Button_icon___5DvQ {
+  position: relative;
+  transition-duration: 50ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.Button_spacer__BpyRr {
+  width: calc(var(--base) / 2);
+  flex-shrink: 0;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Label/index.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Label_label__z2CUo {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media (max-width: 1600px) {
+  .Label_label__z2CUo {
+    font-size: 13px;
+    letter-spacing: 2.75px;
+  }
+}
+@media (max-width: 768px) {
+  .Label_label__z2CUo {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2.625px;
+  }
+}
+
+.Label_label__z2CUo + h1,
+.Label_label__z2CUo + h2,
+.Label_label__z2CUo + h3,
+.Label_label__z2CUo + h4,
+.Label_label__z2CUo + h5,
+.Label_label__z2CUo + h6 {
+  margin-top: var(--base);
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/LargeBody/index.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LargeBody_largeBody__THI_A {
+  font-size: 33px;
+  line-height: 42px;
+}
+@media (max-width: 1024px) {
+  .LargeBody_largeBody__THI_A {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .LargeBody_largeBody__THI_A {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Highlight/index.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Highlight_highlightWrapper___4gxN {
+  text-decoration: none;
+}
+
+.Highlight_label__zJcXE {
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 500ms;
+  transition-delay: 250ms;
+}
+
+.Highlight_highlightNode__ZhI2W {
+  position: relative;
+  display: inline-flex;
+  will-change: color;
+}
+.Highlight_highlightNode__ZhI2W::before {
+  pointer-events: none;
+  will-change: width;
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.33em);
+  height: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  background-color: var(--theme-success-400);
+  transition: height cubic-bezier(0.4, 0, 0.2, 1) 500ms;
+  transition-delay: 250ms;
+}
+
+.Highlight_doHighlight__bm4m_::before {
+  height: 50%;
+}
+
+.Highlight_label__zJcXE {
+  position: relative;
+  z-index: 1;
+}
+
+.Highlight_darkMode__QldPg .Highlight_label__zJcXE {
+  color: var(--theme-text);
+}
+.Highlight_darkMode__QldPg .Highlight_highlightNode__ZhI2W::before {
+  background-color: var(--theme-success-100);
+}
+.Highlight_darkMode__QldPg .Highlight_doHighlight__bm4m_ .Highlight_label__zJcXE {
+  color: var(--theme-success-600);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/RichText/Video/index.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Video_videoPlayer__VMFIr {
+  position: relative;
+  height: 0;
+  width: 100%;
+  background-color: var(--theme-elevation-0);
+  overflow: hidden;
+  margin-bottom: var(--base);
+}
+
+.Video_iframe__LR_MP {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Media/Video/index.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Video_video__ApuIi {
+  max-width: 100%;
+  width: 100%;
+  background-color: var(--color-base-50);
+  display: block;
+}
+
+.Video_cover__Gkpqi {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Media/Image/index.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Image_placeholder__NwxVA {
+  background-color: var(--theme-elevation-50);
+}
+
+[data-theme=dark] .Image_hasDarkModeFallback__NIONV.Image_themeLight___2CLP {
+  display: none;
+}
+
+[data-theme=light] .Image_themeDark__QLKed {
+  display: none;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/RichText/index.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.RichText_richText__bFXc7 a {
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  color: var(--color-blue-600);
+}
+@media (pointer: fine) {
+  .RichText_richText__bFXc7 a:hover {
+    color: var(--color-blue-400);
+  }
+}
+.RichText_richText__bFXc7 a:visited {
+  color: var(--color-purple-600);
+}
+@media (pointer: fine) {
+  .RichText_richText__bFXc7 a:visited:hover {
+    color: var(--color-purple-500);
+  }
+}
+.RichText_richText__bFXc7 :first-child {
+  margin-top: 0;
+}
+.RichText_richText__bFXc7 :last-child {
+  margin-bottom: 0;
+}
+.RichText_richText__bFXc7 span {
+  white-space: pre-wrap;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Announcements/index.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Announcements_announcementWrap__mD1aj {
+  --announcement-bg-color: var(--theme-success-100);
+  --announcement-text-color: var(--theme-success-600);
+  --spacer: calc(var(--base) * 2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: var(--z-nav);
+  pointer-events: none;
+}
+@media (max-width: 1024px) {
+  .Announcements_announcementWrap__mD1aj {
+    --spacer: 0px;
+  }
+}
+
+.Announcements_announcement__QZKk5 {
+  position: relative;
+  display: flex;
+  gap: var(--base);
+  pointer-events: all;
+  margin: var(--spacer);
+  padding: var(--base) calc(var(--gutter-h) / 2 - var(--spacer));
+  transition: color 300ms ease;
+  border-bottom: 1px solid var(--announcement-text-color);
+  color: var(--announcement-text-color);
+  background-color: transparent;
+}
+.Announcements_announcement__QZKk5:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.99;
+  transition: opacity 500ms ease-out;
+  background-color: var(--announcement-bg-color);
+}
+.Announcements_announcement__QZKk5 .Announcements_richText__jTaCK {
+  display: flex;
+  align-items: center;
+  color: var(--announcement-text-color);
+}
+.Announcements_announcement__QZKk5 .Announcements_richText__jTaCK a:visited, .Announcements_announcement__QZKk5 .Announcements_richText__jTaCK a {
+  color: var(--announcement-text-color);
+  transition: all 0.2s ease;
+}
+.Announcements_announcement__QZKk5 .Announcements_richText__jTaCK a:visited:hover, .Announcements_announcement__QZKk5 .Announcements_richText__jTaCK a:hover {
+  color: var(--announcement-text-color);
+  opacity: 0.7;
+}
+.Announcements_announcement__QZKk5 .Announcements_arrow__4box8 {
+  margin-left: calc(var(--base) / 2);
+  width: calc(var(--base) * 0.55);
+  height: calc(var(--base) * 0.55);
+}
+.Announcements_announcement__QZKk5 .Announcements_close__9mLwx {
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  color: currentColor;
+  font-size: var(--font-body-size);
+  font-family: var(--font-body);
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.Announcements_announcement__QZKk5 .Announcements_close__9mLwx svg {
+  width: calc(var(--base) * 0.9);
+  height: calc(var(--base) * 0.9);
+  border-radius: 100%;
+  background-color: var(--announcement-text-color);
+  color: var(--announcement-bg-color);
+  transition: all 0.2s ease;
+}
+.Announcements_announcement__QZKk5 .Announcements_close__9mLwx svg:hover {
+  opacity: 0.7;
+}
+@media (max-width: 1600px) {
+  .Announcements_announcement__QZKk5 {
+    padding-left: var(--gutter-h);
+    padding-right: var(--gutter-h);
+  }
+}
+@media (max-width: 768px) {
+  .Announcements_announcement__QZKk5 .Announcements_arrow__4box8 {
+    display: none;
+  }
+}
+
+[data-theme=light] .Announcements_announcementWrap__mD1aj {
+  --announcement-bg-color: var(--theme-success-500);
+  --announcement-text-color: var(--theme-success-900);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Gutter/index.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Gutter_gutter__Qb7b0 {
+  padding-right: var(--gutter-h);
+  padding-left: var(--gutter-h);
+}
+
+@media (max-width: 1024px) {
+  .Gutter_gutter__Qb7b0.Gutter_disableMobile__UTPxh {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Header/MobileNav/index.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.MobileNav_mobileNav__bYr2C {
+  display: none;
+  visibility: hidden;
+}
+@media (max-width: 768px) {
+  .MobileNav_mobileNav__bYr2C {
+    display: block;
+    visibility: visible;
+  }
+}
+
+.MobileNav_logo__UH9q5 {
+  position: relative;
+  top: -2px;
+}
+
+.MobileNav_menuBarContainer__wWp__ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MobileNav_icons__XxpaK {
+  display: flex;
+}
+
+.MobileNav_searchToggler__eOzqT {
+  all: unset;
+  cursor: pointer;
+  margin-right: calc(var(--base) * 0.5);
+}
+
+.MobileNav_modalToggler__GZaYp {
+  all: unset;
+  cursor: pointer;
+  margin-left: calc(var(--base) * 0.5);
+}
+
+.MobileNav_modalBlur__5ydc3 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-base-900);
+  opacity: 0.85;
+  z-index: -1;
+}
+
+.MobileNav_mobileMenuModal__Y7JeF {
+  all: unset;
+  width: 100%;
+  height: 100%;
+  margin-top: var(--header-height);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  display: none;
+  visibility: hidden;
+}
+@media (max-width: 768px) {
+  .MobileNav_mobileMenuModal__Y7JeF {
+    display: block;
+    visibility: visible;
+  }
+}
+
+.MobileNav_mobileMenuItems__Dom_0 {
+  display: flex;
+  flex-direction: column;
+  padding: calc(var(--base) * 1.5) 0;
+}
+
+.MobileNav_mobileMenuItem__Q6yxg {
+  margin: 50px 0;
+  font-size: 96px;
+  line-height: 1;
+  font-weight: normal;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media (max-width: 1920px) {
+  .MobileNav_mobileMenuItem__Q6yxg {
+    font-size: 80px;
+  }
+}
+@media (max-width: 1600px) {
+  .MobileNav_mobileMenuItem__Q6yxg {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .MobileNav_mobileMenuItem__Q6yxg {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .MobileNav_mobileMenuItem__Q6yxg {
+    margin: 24px 0;
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+@media (max-width: 1024px) {
+  .MobileNav_mobileMenuItem__Q6yxg {
+    margin: 0 0 var(--base) 0;
+    color: var(--color-base-0);
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Header/DesktopNav/index.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@media (max-width: 768px) {
+  .DesktopNav_desktopNav__HKVWg {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.DesktopNav_grid__T30Uo a {
+  text-decoration: none;
+}
+
+.DesktopNav_container___nE0u {
+  position: relative;
+}
+
+.DesktopNav_logo__jGt1_ {
+  width: calc(var(--gutter-h) / 2 - var(--base));
+  height: 100%;
+  position: absolute;
+  left: calc(-1 * var(--base));
+  display: flex;
+  justify-content: flex-start;
+  transform: translateX(-100%);
+  top: -2px;
+}
+.DesktopNav_logo__jGt1_ svg {
+  height: auto;
+}
+@media (max-width: 1600px) {
+  .DesktopNav_logo__jGt1_ {
+    position: static;
+    left: 0;
+    transform: unset;
+    width: auto;
+    margin-right: var(--base);
+  }
+}
+
+.DesktopNav_navItems__loT5O {
+  display: flex;
+}
+.DesktopNav_navItems__loT5O .DesktopNav_navItem__n8WVH {
+  margin-right: calc(var(--base) * 0.75);
+}
+
+.DesktopNav_content__8ESsi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 1600px) {
+  .DesktopNav_content__8ESsi {
+    justify-content: unset;
+  }
+}
+
+.DesktopNav_github__7QalJ {
+  display: flex;
+  color-scheme: none;
+  align-items: center;
+}
+.DesktopNav_github__7QalJ .DesktopNav_stars__mADrt {
+  vertical-align: middle;
+}
+@media (max-width: 1600px) {
+  .DesktopNav_github__7QalJ {
+    margin-left: auto;
+  }
+  .DesktopNav_github__7QalJ .DesktopNav_stars__mADrt {
+    margin-right: var(--base);
+  }
+}
+
+.DesktopNav_githubText__7ux0o {
+  margin-right: calc(var(--base) * 0.5);
+}
+@media (max-width: 1600px) {
+  .DesktopNav_githubText__7ux0o {
+    display: none;
+  }
+}
+
+.DesktopNav_starsWrap__4o2PC {
+  position: relative;
+}
+
+.DesktopNav_payload__Ma2Oq {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.DesktopNav_icons__UF4gF {
+  width: calc(var(--gutter-h) / 2 - var(--base));
+  position: absolute;
+  right: calc(-1 * var(--base));
+  display: flex;
+  justify-content: flex-end;
+  transform: translateX(100%);
+  top: 0;
+  align-items: center;
+}
+.DesktopNav_icons__UF4gF > * {
+  margin-right: calc(var(--base) * 0.5);
+  line-height: 1;
+}
+.DesktopNav_icons__UF4gF > *:last-child {
+  margin-right: 0;
+}
+@media (max-width: 1600px) {
+  .DesktopNav_icons__UF4gF {
+    position: static;
+    right: 0;
+    transform: unset;
+    width: auto;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Header/index.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__vtMaK {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: var(--z-nav);
+  padding: calc(var(--base) * 1.5) 0;
+  transition: color 300ms ease;
+}
+.Header_header__vtMaK:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--theme-bg);
+  opacity: 0.85;
+  z-index: -1;
+  transition: opacity 500ms ease-out;
+}
+.Header_header__vtMaK:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  z-index: -1;
+  opacity: 1;
+  transition: opacity 500ms ease-out;
+}
+@media (max-width: 1600px) {
+  .Header_header__vtMaK {
+    padding: var(--base) 0;
+  }
+}
+@media (max-width: 1024px) {
+  .Header_header__vtMaK {
+    padding: calc(var(--base) * 0.75) 0;
+  }
+}
+
+.Header_header__vtMaK.Header_hideBackground__UYstp:before {
+  opacity: 0;
+}
+.Header_header__vtMaK.Header_hideBackground__UYstp:after {
+  opacity: 0;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/forms/Error/index.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Error_error__yq6ms {
+  bottom: 80%;
+  color: var(--theme-error-500);
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/forms/Label/index.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Label_label__y3lCd {
+  display: block;
+  margin-bottom: calc(var(--base) * 0.25);
+}
+
+.Label_required__BznzW {
+  color: var(--color-failure-500);
+  margin: 0 calc(var(--base) * 0.25);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/forms/fields/Text/index.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Text_wrap__K_Qf7 {
+  position: relative;
+}
+
+.Text_input__9m7b1 {
+  all: unset;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+  width: 100%;
+  border: 1px solid var(--theme-elevation-150);
+  background: var(--theme-input-bg);
+  color: var(--theme-elevation-800);
+  font-size: 1rem;
+  height: calc(var(--base) * 2.5);
+  line-height: var(--base);
+  padding: var(--base);
+}
+.Text_input__9m7b1::-moz-placeholder, .Text_input__9m7b1::-webkit-input-placeholder {
+  color: var(--theme-elevation-400);
+  font-weight: normal;
+  font-size: 1rem;
+}
+.Text_input__9m7b1:hover {
+  border-color: var(--theme-elevation-250);
+}
+.Text_input__9m7b1:focus, .Text_input__9m7b1:active {
+  border-color: var(--theme-elevation-400);
+  outline: 0;
+}
+.Text_input__9m7b1:disabled {
+  background: var(--theme-elevation-200);
+  color: var(--theme-elevation-450);
+}
+.Text_input__9m7b1:disabled:hover {
+  border-color: var(--theme-elevation-150);
+}
+.Text_input__9m7b1.Text_error__M_MY0 {
+  background-color: var(--theme-failure-500);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/components/Footer/index.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__MpYUT {
+  margin: var(--block-spacing) 0 calc(var(--base) * 4) 0;
+}
+
+.Footer_colHeader__Kj9_N {
+  margin-bottom: calc(var(--base) * 4.5);
+  height: 35px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+@media (max-width: 1024px) {
+  .Footer_colHeader__Kj9_N {
+    margin-bottom: calc(var(--base) * 2);
+  }
+}
+
+@media (max-width: 1024px) {
+  .Footer_colHeader__Kj9_N.Footer_thirdColumn__qElfG {
+    margin-top: calc(var(--base) * 2);
+  }
+}
+
+.Footer_footer__MpYUT .Footer_link__4OhxW {
+  display: block;
+  margin-bottom: calc(var(--base) * 0.15);
+  text-decoration: none;
+  width: 50%;
+  font-size: calc(var(--font-body-size) * 0.925);
+  color: var(--theme-elevation-500);
+}
+.Footer_footer__MpYUT .Footer_link__4OhxW:hover {
+  color: var(--theme-elevation-800);
+}
+@media (max-width: 1024px) {
+  .Footer_footer__MpYUT .Footer_link__4OhxW {
+    width: 100%;
+  }
+}
+
+.Footer_col2Items__JPc_C {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media (max-width: 1024px) {
+  .Footer_col2Items__JPc_C {
+    max-height: unset;
+  }
+}
+
+.Footer_subscribeAction__lLeJ8 {
+  display: flex;
+  margin-top: calc(var(--base) * 1);
+}
+
+.Footer_subscribeDesc__Febhr {
+  color: var(--theme-elevation-500);
+  font-size: calc(var(--font-body-size) * 0.925);
+}
+
+.Footer_inputWrap__uMQA7 {
+  position: relative;
+}
+
+.Footer_emailInput__v2IMA input {
+  padding-right: calc(var(--base) * 2);
+}
+
+.Footer_inputArrow__qFcKP {
+  position: absolute;
+  right: var(--base);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: var(--theme-text);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.Footer_ok__rBnXy {
+  cursor: pointer;
+  height: calc(var(--base) * 3);
+  width: calc(var(--base) * 3);
+  border-radius: 50%;
+  color: var(--theme-text);
+  border: 1px solid currentColor;
+  background-color: var(--theme-bg);
+  position: relative;
+  isolation: isolate;
+  flex-shrink: 0;
+  margin-left: calc(var(--base) * 1.5);
+}
+.Footer_ok__rBnXy:hover {
+  background-color: var(--theme-text);
+  color: var(--theme-bg);
+}
+
+.Footer_footerMeta__bOHGr {
+  margin-top: calc(var(--base) * 4);
+  align-items: flex-end;
+}
+@media (max-width: 1024px) {
+  .Footer_footerMeta__bOHGr {
+    margin-top: calc(var(--base) * 2);
+  }
+}
+
+.Footer_socialLinks__Cw_HN {
+  display: flex;
+  align-items: center;
+}
+
+.Footer_socialIconLink___4UT4 {
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: var(--base);
+}
+
+.Footer_copyright__tjy89,
+.Footer_communityHelp__5xqHa {
+  font-size: calc(var(--font-body-size) * 0.925);
+  color: var(--theme-elevation-500);
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .Footer_themeCell__9ibOI {
+    grid-row: 3;
+  }
+}
+
+.Footer_selectContainer__WY6_Q {
+  --theme-icon-width: calc(var(--base) * 2);
+  --theme-switcher-icon-width: calc(var(--base) * 2);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  color: var(--theme-elevation-500);
+  cursor: pointer;
+}
+.Footer_selectContainer__WY6_Q label {
+  all: unset;
+  font-size: calc(var(--font-body-size) * 0.75);
+  display: flex;
+  align-items: center;
+}
+.Footer_selectContainer__WY6_Q select {
+  all: unset;
+  border: 1px solid var(--theme-elevation-300);
+  font-size: calc(var(--font-body-size) * 0.925);
+  padding-top: calc(var(--base) * 0.25);
+  padding-bottom: calc(var(--base) * 0.25);
+  padding-left: var(--theme-icon-width);
+  padding-right: var(--theme-switcher-icon-width);
+}
+
+.Footer_switcherIcon__VueUp {
+  display: inline-flex;
+  height: var(--base);
+  justify-content: center;
+  position: absolute;
+}
+
+.Footer_themeIcon__P6UnL {
+  width: var(--theme-icon-width);
+}
+
+.Footer_upDownChevronIcon__ZNM2z {
+  width: var(--theme-switcher-icon-width);
+  right: 0;
+  pointer-events: none;
+}

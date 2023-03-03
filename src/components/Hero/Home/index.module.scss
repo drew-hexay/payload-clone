@@ -1,0 +1,210 @@
+@use '@scss/common.scss' as *;
+
+.homeHero {
+  margin-top: calc(-1 * var(--page-padding-top));
+}
+
+.wrap {
+  position: relative;
+  background: var(--theme-bg);
+}
+
+.bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(20,20,20,.9) 0%, rgba(50,50,50,0.5) 100%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.bgImage {
+  pointer-events: none;
+  height: 100vh;
+  width: 191.22vh;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.contentWrap {
+  position: relative;
+  z-index: 2;
+
+  hr {
+    margin-top: calc(var(--base) * 5);
+    margin-bottom: calc(var(--base) * 5);
+    margin-left: calc(-1 * var(--gutter-h) / 2);
+    margin-right: calc(-1 * var(--gutter-h) / 2);
+    width: calc(100% + var(--gutter-h));
+
+    @include large-break {
+      margin-top: var(--block-spacing);
+      margin-bottom: var(--block-spacing);
+      width: initial;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  min-height: 72vh;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-left: calc(var(--gutter-h) / -2);
+  margin-right: calc(var(--gutter-h) / -2);
+
+  @include large-break {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @include mid-break {
+    padding-top: calc(var(--base) * 6);
+    min-height: initial;
+    display: block;
+  }
+}
+
+.richText {
+  width: 70%;
+  padding-right: calc(var(--base) * 3);
+
+  h1 {
+    @include jumbo;
+  }
+
+  @include mid-break {
+    width: 100%;
+    margin-bottom: var(--base);
+    padding-right: 0;
+  }
+}
+
+.sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include mid-break {
+    width: 100%;
+  }
+}
+
+.actions,
+.buttons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.actions {
+  margin-bottom: calc(var(--base) * 4);
+
+  & > *:not(:last-child) {
+    margin-bottom: var(--base);
+  }
+
+  @include mid-break {
+    margin-bottom: calc(var(--base) * 1.5);
+  }
+}
+
+.buttons {
+  display: flex;
+  
+  li {
+    flex: 0 0 50%;
+
+    > * {
+      width: 100%;
+    }
+
+    &:first-child {
+      padding-right: calc(var(--base) / 2);
+    }
+
+    &:last-child {
+      padding-left: calc(var(--base) / 2);
+    }
+  }
+
+  @include mid-break {
+    display: block;
+
+    li {
+      padding: 0 !important;
+      margin-bottom: calc(var(--base) / 2);
+    }
+  }
+}
+
+.adjectives {
+  display: flex;
+  pointer-events: none;
+  margin-bottom: var(--block-spacing);
+}
+
+.adjective {
+  display: block;
+  font-size: 288px;
+  line-height: 1;
+  overflow: hidden;
+
+  &:after {
+    content: '—';
+  }
+
+  @include large-break {
+    font-size: 240px;
+  }
+
+  @include mid-break {
+    font-size: 168px;
+  }
+
+  @include small-break {
+    font-size: 96px;
+  }
+}
+
+.padForMedia {
+  padding-top: 28.125%; // half of 16x9 ratio
+}
+
+.mediaGutter {
+  position: relative;
+}
+
+.voidSpaceBelowMedia {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.media {
+  @include shadow-lg;
+  position: relative;
+  z-index: 2;
+  margin-top: -28.125%; // half of 16x9 ratio
+}

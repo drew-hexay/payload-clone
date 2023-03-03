@@ -1,0 +1,125 @@
+@use '@scss/common.scss' as *;
+
+$transCurve: cubic-bezier(0.4, 0, 0.2, 1);
+
+.button {
+  all: unset;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-flex;
+  position: relative;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.mobile-full-width {
+  @include mid-break {
+    width: 100%;
+  }
+}
+
+.appearance {
+  &--default {
+    display: inline-flex;
+    min-width: calc(var(--base) * 12);
+    padding-top: calc(var(--base) * 0.75);
+  }
+
+  &--primary {
+    border: 1px solid var(--theme-elevation-900);
+    padding: calc(var(--base) * 0.75) var(--base);
+    color: var(--theme-elevation-0);
+    background-color: var(--theme-elevation-900);
+    // background-image: linear-gradient(90deg, var(--theme-success-500) 0%, var(--theme-success-900) 50%, var(--theme-elevation-900) 50%, var(--theme-elevation-900) 100%);
+    // background-position: 100% 100%;
+    // background-repeat: no-repeat;
+    // background-size: 200% 100%;
+
+    // &--hovered {
+    //   background-position: 0% 100%;
+    // }
+
+    // &--animating-out,
+    // &--hovered {
+    //   transition: background-position 250ms $transCurve;
+    // }
+      
+    // &--animating-out {
+    //   background-position: 100% 100%;
+    // }
+  }
+
+  &--secondary {
+    border: 1px solid;
+    border-color: var(--theme-elevation-500);
+    padding: calc(var(--base) * 0.75) var(--base);
+
+    &--hovered {
+      border-color: var(--theme-elevation-900);
+      @include mid-break {
+        border-color: var(--theme-elevation-500);
+      }
+    }
+  }
+}
+
+.gradient {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity #{50}ms $transCurve;
+}
+
+.is--hovered {
+  &:local()  {
+    .icon {
+      transform: translate3d(2px, -2px, 0);
+
+      @include mid-break {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+}
+
+.content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.label {
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  align-items: center;
+}
+
+.label-mono {
+  @include label;
+}
+
+.label-centered {
+  justify-content: center;
+  text-align: center;
+}
+
+.icon {
+  position: relative;
+  transition-duration: 50ms;
+  transition-timing-function: $transCurve;
+  flex-shrink: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.spacer {
+  width: calc(var(--base) / 2);
+  flex-shrink: 0;
+}
